@@ -14,7 +14,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	//"postCreateCommand": "poetry install --no-interaction --only dev",
-	"postCreateCommand": "pip freeze > requirements.txt",
+	"postCreateCommand": "pip freeze > dev-requirements.txt",
 	"customizations": {
 		"vscode": {
 			"extensions": [
