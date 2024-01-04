@@ -13,7 +13,8 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "poetry install --no-interaction --only dev",
+	//"postCreateCommand": "poetry install --no-interaction --only dev",
+	"postCreateCommand": "pip freeze > requirements.txt",
 	"customizations": {
 		"vscode": {
 			"extensions": [
